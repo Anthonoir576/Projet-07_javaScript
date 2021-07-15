@@ -26,7 +26,13 @@ main {
 }
 main h1 {
   font-size: 2.5rem;
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 10px;
+  background: #3e51bd;
+  color: whitesmoke;
+  width: 100%;
 }
 main .price {
   text-align: center;
@@ -36,8 +42,9 @@ main .price {
   padding: 10px 0;
   border-top: 1px solid #3e51bd3b;
   border-bottom: 1px solid #3e51bd42;
+  background: #3e51bd04;
   border-radius: 10px;
-  margin: 2em;
+  margin: 1em;
 }
 main .input {
   display: flex;
@@ -52,16 +59,19 @@ main .input :nth-child(1) {
 }
 main .input label {
   font-size: 20px;
+  font-weight: 500;
+  align-self: flex-start;
 }
 
 .card {
-  background: rgba(228, 229, 230, 0.925);
+  background: rgba(228, 229, 230, 0.911);
   padding: 3rem;
   margin: 0 auto;
   width: 40%;
   height: 90%;
+  border: 2px solid #3e51bdc2;
   border-radius: 30px;
-  box-shadow: 0 0 3px rgba(51, 51, 51, 0.233);
+  box-shadow: 0 0 3px rgba(62, 81, 189, 0.3);
 }
 .card input {
   background: none;
@@ -72,10 +82,11 @@ main .input label {
   font-size: 1.15rem;
   width: 100%;
   text-align: center;
+  margin-bottom: 2em;
 }
 .card button {
   background: #3e51bd;
-  border-radius: 20px;
+  border-radius: 7px;
   outline: 0;
   border: none;
   padding: 1rem;
@@ -83,12 +94,13 @@ main .input label {
   color: white;
   font-size: 1.3rem;
   letter-spacing: 1px;
-  width: 70%;
+  width: 60%;
 }
 .card button:hover {
-  filter: saturate(150%);
+  filter: saturate(350%);
   transform: scale(1.05);
-  box-shadow: 0 0 5px 1px #3e51bd;
+  box-shadow: 0 0 5px 1px #fafafa;
+  font-weight: 500;
 }
 
 /*# sourceMappingURL=style.css.map */
