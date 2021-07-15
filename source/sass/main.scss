@@ -14,6 +14,123 @@ body {
 
     overflow-x: hidden;
 
-    background: whitesmoke;
+    color: #3e51bd;
+
+    background: url(../image/pix.jpg) no-repeat
+    center/cover;
+
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Hind Siliguri', sans-serif;
 
 }
+
+main {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    & h1 {
+
+        font-size: 2.5rem;
+        margin-bottom: 1em;
+
+    }
+
+    & .price {
+
+        text-align: center;
+        font-size: 30px;
+        font-weight: 600;
+        width: 100%;
+
+        padding: 10px 0;
+
+        border-top: 1px solid #3e51bd3b;
+        border-bottom: 1px solid #3e51bd42;
+
+        border-radius: 10px;
+
+    }
+
+    & .input {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        width: 100%;
+
+        margin-bottom: 1em;
+        
+        & :nth-child(1) {
+
+            margin-bottom: 1.6em;
+
+        }
+
+        & label {
+
+           font-size: 20px; 
+
+        }
+
+    }
+
+}
+
+
+
+.card {
+
+    background: rgba(228, 229, 230, 0.925);
+    padding: 3rem;
+    margin: 0 auto;
+    width: 30%;
+    height: 90%;
+
+    border-radius: 30px;
+    box-shadow: 0 0 3px rgba(51, 51, 51, 0.233);
+
+
+
+    input {
+
+        background: none;
+        outline: none;
+        border: 1px solid #3e51bd;
+    
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 1.15rem;
+        width: 100%;
+        text-align: center;
+
+    }
+
+    button {
+
+        background: #3e51bd;
+        border-radius: 20px;
+        outline: 0;
+        border: none;
+        padding: 1rem;
+        margin: 50px 0 20px;
+        color: white;
+        font-size: 1.3rem;
+        letter-spacing: 1px;
+
+        width: 70%;
+
+    }
+
+}
+  
