@@ -9,6 +9,7 @@ body {
   overflow-x: hidden;
   color: #3e51bd;
   background: url(../image/pix.jpg) no-repeat center/cover;
+  filter: blur(0.1px);
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -36,6 +37,7 @@ main .price {
   border-top: 1px solid #3e51bd3b;
   border-bottom: 1px solid #3e51bd42;
   border-radius: 10px;
+  margin: 2em;
 }
 main .input {
   display: flex;
@@ -56,7 +58,7 @@ main .input label {
   background: rgba(228, 229, 230, 0.925);
   padding: 3rem;
   margin: 0 auto;
-  width: 30%;
+  width: 40%;
   height: 90%;
   border-radius: 30px;
   box-shadow: 0 0 3px rgba(51, 51, 51, 0.233);
@@ -82,6 +84,11 @@ main .input label {
   font-size: 1.3rem;
   letter-spacing: 1px;
   width: 70%;
+}
+.card button:hover {
+  filter: saturate(150%);
+  transform: scale(1.05);
+  box-shadow: 0 0 5px 1px #3e51bd;
 }
 
 /*# sourceMappingURL=style.css.map */

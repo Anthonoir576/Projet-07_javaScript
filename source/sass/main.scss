@@ -19,6 +19,8 @@ body {
     background: url(../image/pix.jpg) no-repeat
     center/cover;
 
+    filter: blur(0.1px);
+
     width: 100vw;
     height: 100vh;
 
@@ -58,6 +60,8 @@ main {
 
         border-radius: 10px;
 
+        margin: 2em;
+
     }
 
     & .input {
@@ -94,13 +98,11 @@ main {
     background: rgba(228, 229, 230, 0.925);
     padding: 3rem;
     margin: 0 auto;
-    width: 30%;
+    width: 40%;
     height: 90%;
 
     border-radius: 30px;
     box-shadow: 0 0 3px rgba(51, 51, 51, 0.233);
-
-
 
     input {
 
@@ -129,6 +131,14 @@ main {
         letter-spacing: 1px;
 
         width: 70%;
+
+        &:hover {
+
+            filter: saturate(150%);
+            transform: scale(1.05);
+            box-shadow: 0 0 5px 1px #3e51bd;
+
+        }
 
     }
 
